@@ -1,0 +1,136 @@
+
+.start{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.dge{
+  text-align: center;
+  color: white;
+  font-size: 5vw ;
+  font-family: Georgia, serif;
+}  
+.per{ height:100vh;
+
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card {
+  width: 20%;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px red;
+}
+
+.card h3 {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.card p {
+  line-height: 1.6;
+}
+.air{
+  text-align: center;
+  color: white;
+  font-size: 5vw ;
+  font-family: Georgia, serif;
+}  
+.puma{
+  text-align: center;
+  color: white;
+  font-size: 5vw ;
+  font-family: Georgia, serif;
+}  
+
+.max{
+  text-align: center;
+  color: white;
+  font-size: 5vw ;
+  font-family: Georgia, serif;
+    
+}
+button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 10px 20px;
+  font-family:Seagram;
+}
+button img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+button:hover {
+  background: #111;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255,255,255,0.2);
+}
+  
+button img {
+  width: 30px;
+  height: 30px;
+}
+body {
+  background-color: black;
+}
+
+img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+img:hover {
+  width: 350px;
+  height: 350px;
+  transform: scale(1.08) translateY(-8px);
+  box-shadow: 0 20px 40px rgba(255,255,255,0.15);
+}
+}
+
+.dge,
+.air,
+.max,
+.puma {
+  text-align:center;
+  color:white;
+  font-family:Georgia, serif;
+}
+.imagens,
+.imgmax,
+.imgpuma {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+}
